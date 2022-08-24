@@ -1,0 +1,55 @@
+/* p.fourth{
+    color: rgb(20, 185, 214);
+}
+
+.second{
+    color: green;
+}
+
+.first{
+    color: rgb(139, 116, 116);
+}
+
+p.third{
+    color: rgb(246, 98, 98);
+    border: dashed 1px;
+}
+
+#content{
+    background-color: #ebebeb;
+    padding: 20px;
+}
+
+a[href="https://www.google.com"]{
+    background-color: #3dd13d;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+a[href*="microsoft"]{
+    background-color: red;
+    color: white;
+    border: 2px solid black;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-decoration: none;
+} */
+
+div{
+    color: lightcoral;
+    border: 1px solid grey;
+    margin: 40px;
+    font-weight: bold;
+}
+
+div p{
+    border: inherit;
+    margin: inherit;
+    color: crimson;
+}
+
+p{
+    color: orange;
+}
